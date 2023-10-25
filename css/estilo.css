@@ -1,0 +1,57 @@
+:root {
+    --cor1: #6E1499;
+    --cor2: #6F1D83;
+    --cor3: #BFC2F8;
+    --cor4: #9B4DAE;
+    --cor5: #090B42;
+}
+
+.cadastro{
+ font-weight: 100;
+ font-family: "Extra Bold" , sans-serif;
+ color: #6E1499!important;
+ text-align: center;
+}
+
+
+.nome{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.manu{
+    flex-direction: row;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.input-esquerda {
+    width: 50%;
+    padding-right: 10px;
+ 
+}
+
+.input-direita {
+    width: 50%;
+    padding-left: 20px;
+  
+}
+
+input {
+    margin: 10px 0!important;
+
+}
+
+.form-control {
+    background-color: var(--cor3)!important;
+    border: 2px solid!important;
+    border-color: var(--cor1)!important;
+}
+
+input::placeholder {
+    color: var(--cor1)!important;
+}
+
+
